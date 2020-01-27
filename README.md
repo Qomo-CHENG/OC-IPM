@@ -15,7 +15,7 @@ The weight enumerator [<sup>[1]</sup>](https://en.wikipedia.org/wiki/Enumerator_
 
 <img src="http://latex.codecogs.com/gif.latex?W_\mathcal{C}(X, Y) = \sum_{i=0}^n B_iX^{n-i}Y^i" />
 
-It can also be denoted as: $\small{[ (i, B_i), ~s.t. ~B_i\neq 0]}$. This form is the one we used in this repository.
+It can also be denoted as: $[ (i, B_i), ~s.t. ~B_i\neq 0]$. This form is the one we used in this repository.
 
 ### 2. Equivalent codes
 
@@ -30,7 +30,7 @@ It is interesting to notice that equivalent linear codes have the same weight di
 
 ## Copyright and License
 
-This repository are placed into the public domain. Anyone can redistribute it and/or modify it under the terms of the GNU General Public License version 3.0.
+This repository is placed into the public domain. Anyone can redistribute it and/or modify it under the terms of the GNU General Public License version 3.0.
 
 Copyright (C) 2020, Télécom Paris - All Rights Reserved to Authors.
 
