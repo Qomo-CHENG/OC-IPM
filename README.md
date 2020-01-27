@@ -12,9 +12,8 @@ Specifically, we give the optimal instances with $n=2, 3$ shares and $k=4, 8$ bi
 ### 1. Weight enumerator of a linear code
 
 The weight enumerator [<sup>[1]</sup>](https://en.wikipedia.org/wiki/Enumerator_polynomial) specifies the number of codewords of the same Hamming weights in a linear code $\mathcal{C}$. It is defined as:
-$$ W_\mathcal{C}(X, Y) = \sum_{i=0}^n B_iX^{n-i}Y^i $$
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=$$&space;W_\mathcal{C}(X,&space;Y)&space;=&space;\sum_{i=0}^n&space;B_iX^{n-i}Y^i&space;$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$$&space;W_\mathcal{C}(X,&space;Y)&space;=&space;\sum_{i=0}^n&space;B_iX^{n-i}Y^i&space;$$" title="$$ W_\mathcal{C}(X, Y) = \sum_{i=0}^n B_iX^{n-i}Y^i $$" /></a>
+$$ W_\mathcal{C}(X, Y) = \sum_{i=0}^n B_iX^{n-i}Y^i $$
 
 It can also be denoted as: $[ (i, B_i), ~s.t. ~B_i\neq 0]$. This form is the one we used in this repository.
 
