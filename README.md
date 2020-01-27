@@ -3,15 +3,15 @@
 
 ## Optimal Codes for Inner Product Masking
 
-We present here the exhaustive study of optimal linear codes for Inner Product Masking (IPM). 
+We present here the exhaustive study of all linear codes for Inner Product Masking (IPM) and show how to choose optimal linear codes for IPM. 
 
-Specifically, we give the optimal instances with *n*=2, 3 shares and *k*=4, 8 bits. All linear codes presented here are checked formally by Magma Computational Algebra System.
+Particularly, we give the optimal instances with *n*=2, 3 shares and *k*=4, 8 bits. All linear codes presented here are checked formally by Magma Computational Algebra System [<sup>[1]</sup>](http://magma.maths.usyd.edu.au/magma/).
 
 ## Basics
 
 ### 1. Weight enumerator of a linear code
 
-The weight enumerator [<sup>[1]</sup>](https://en.wikipedia.org/wiki/Enumerator_polynomial) specifies the number of codewords of the same Hamming weights in a linear code $\mathcal{C}$. It is defined as:
+The weight enumerator [<sup>[2]</sup>](https://en.wikipedia.org/wiki/Enumerator_polynomial) specifies the number of codewords of the same Hamming weights in a linear code $\mathcal{C}$. It is defined as:
 
 <img src="http://latex.codecogs.com/gif.latex?W_\mathcal{C}(X, Y) = \sum_{i=0}^n B_iX^{n-i}Y^i" />
 
