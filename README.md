@@ -11,11 +11,11 @@ Specifically, we give the optimal instances with *n*=2, 3 shares and *k*=4, 8 bi
 
 ### 1. Weight enumerator of a linear code
 
-The weight enumerator [<sup>[1]</sup>](https://en.wikipedia.org/wiki/Enumerator_polynomial) specifies the number of codewords of the same Hamming weights in a linear code <img src="http://latex.codecogs.com/gif.latex?\small{\mathcal{C}}" />. It is defined as:
+The weight enumerator [<sup>[1]</sup>](https://en.wikipedia.org/wiki/Enumerator_polynomial) specifies the number of codewords of the same Hamming weights in a linear code $\mathcal{C}$. It is defined as:
 
 <img src="http://latex.codecogs.com/gif.latex?W_\mathcal{C}(X, Y) = \sum_{i=0}^n B_iX^{n-i}Y^i" />
 
-It can also be denoted as: <img src="http://latex.codecogs.com/gif.latex?\small{[ (i, B_i), ~s.t. ~B_i\neq 0]}" />... $\small{[ (i, B_i), ~s.t. ~B_i\neq 0]}$. This form is the one we used in this repository.
+It can also be denoted as: $\small{[ (i, B_i), ~s.t. ~B_i\neq 0]}$. This form is the one we used in this repository.
 
 ### 2. Equivalent codes
 
