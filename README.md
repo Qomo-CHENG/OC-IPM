@@ -44,4 +44,5 @@ Copyright (C) 2020, Télécom Paris - All Rights Reserved to Authors.
 
 ## References
 [1] Wieb Bosma, John Cannon, and Catherine Playoust, The Magma algebra system. I. The user language, J. Symbolic Comput., 24 (1997), 235–265.
+
 [2] Wikipedia contributors. Enumerator polynomial. Wikipedia, The Free Encyclopedia. December 18, 2019, 10:45 UTC. Available at: https://en.wikipedia.org/w/index.php?title=Enumerator_polynomial&oldid=931345358. Accessed January 27, 2020.
