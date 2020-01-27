@@ -1,4 +1,5 @@
-# OC-IPM
+# Optimal Codes for Inner Product Masking
+
 We present here the exhaustive study of optimal linear codes for Inner Product Masking (IPM). 
 
 Specifically, we give the optimal instances with $n=2, 3$ shares and $k=4, 8$ bits.
