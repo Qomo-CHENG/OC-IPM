@@ -15,7 +15,7 @@ The weight enumerator [<sup>[1]</sup>](https://en.wikipedia.org/wiki/Enumerator_
 
 <img src="http://latex.codecogs.com/gif.latex?W_\mathcal{C}(X, Y) = \sum_{i=0}^n B_iX^{n-i}Y^i" />
 
-It can also be denoted as: <img src="http://latex.codecogs.com/gif.latex?\small{[ (i, B_i), ~s.t. ~B_i\neq 0]}" />... ![](http://latex.codecogs.com/gif.latex?\small{[ (i, B_i), ~s.t. ~B_i\neq 0]}). This form is the one we used in this repository.
+It can also be denoted as: <img src="http://latex.codecogs.com/gif.latex?\small{[ (i, B_i), ~s.t. ~B_i\neq 0]}" />... ![](http://latex.codecogs.com/gif.latex?\\small{[(i,B_i),~s.t.~B_i\\neq 0]}). This form is the one we used in this repository.
 
 ### 2. Equivalent codes
 
