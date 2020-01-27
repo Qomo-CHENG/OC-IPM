@@ -33,3 +33,10 @@ It is interesting to notice that equivalent linear codes have the same weight di
 This repository are placed into the public domain. Anyone can redistribute it and/or modify it under the terms of the GNU General Public License version 3.0.
 
 Copyright (C) 2020, Télécom Paris - All Rights Reserved to Authors.
+
+## Authors
+- Wei CHENG (mailto:wei.cheng@telecom-paris.fr)
+- Sylvain GUILLEY (mailto:sylvain.guilley@secure-ic.com)
+- Jean-Luc DANGER (mailto:jean-luc.danger@telecom-paris.fr)
+- Claude CARLET (mailto:claude.carlet@gmail.com)
+- Sihem MESNAGER (mailto:smesnager@univ-paris8.fr)
