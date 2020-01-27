@@ -21,8 +21,8 @@ It can also be denoted as: $\small{[ (i, B_i), ~s.t. ~B_i\neq 0]}$. This form is
 
 Two linear codes are said to be equivalent if one can be obtained from the other by a series of operations of the following two types:
 
-1) an arbitrary permutation of the coordinate positions, and
-2) in any coordinate position, multiplication by any nonzero scalar.
+a) an arbitrary permutation of the coordinate positions, and
+b) in any coordinate position, multiplication by any nonzero scalar.
 
 It is interesting to notice that equivalent linear codes have the same weight distribution.
 
