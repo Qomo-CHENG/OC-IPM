@@ -1,17 +1,17 @@
 
 # About
 
-## Optimal Codes for Inner Product Masking
+## Optimal Codes for Inner Product Masking<sup>[1]</sup>
 
 We present here the exhaustive study of all linear codes for Inner Product Masking (IPM) and show how to choose optimal linear codes for IPM. 
 
-Particularly, we give the optimal instances with *n*=2, 3 shares and *l*=4, 8 bits. All linear codes presented here are checked formally by Magma Computational Algebra System [<sup>[1]</sup>](http://magma.maths.usyd.edu.au/magma/).
+Particularly, we give the optimal instances with *n*=2, 3 shares and *l*=4, 8 bits. All linear codes presented here are checked formally by Magma Computational Algebra System [<sup>[2]</sup>](http://magma.maths.usyd.edu.au/magma/).
 
 ## Basics
 
 ### 1. Weight enumerator of a linear code
 
-The weight enumerator [<sup>[2]</sup>](https://en.wikipedia.org/wiki/Enumerator_polynomial) specifies the number of codewords of the same Hamming weights in a linear code $\mathcal{C}$. It is defined as:
+The weight enumerator [<sup>[3]</sup>](https://en.wikipedia.org/wiki/Enumerator_polynomial) specifies the number of codewords of the same Hamming weights in a linear code $\mathcal{C}$. It is defined as:
 
 <img src="http://latex.codecogs.com/gif.latex?W_\mathcal{C}(X, Y) = \sum_{i=0}^n B_iX^{n-i}Y^i" />
 
@@ -71,6 +71,11 @@ Copyright (C) 2020, Télécom Paris - All Rights Reserved to Authors.
 
 
 ## References
-[1] Wieb Bosma, John Cannon, and Catherine Playoust, The Magma algebra system. I. The user language, J. Symbolic Comput., 24 (1997), 235–265. Accessed Jan 20, 2019.
 
-[2] Wikipedia contributors. Enumerator polynomial. Wikipedia, The Free Encyclopedia. Dec 18, 2019, 10:45 UTC. Available at: https://en.wikipedia.org/w/index.php?title=Enumerator_polynomial&oldid=931345358. Accessed Jan 27, 2020.
+[1] Josep Balasch, Sebastian Faust, Benedikt Gierlichs, Clara Paglialonga, François-Xavier Standaert:
+Consolidating Inner Product Masking. ASIACRYPT (1) 2017: 724-754.
+
+[2] Wieb Bosma, John Cannon, and Catherine Playoust, The Magma algebra system. I. The user language, J. Symbolic Comput., 24 (1997), 235–265. Accessed Jan 20, 2019.
+
+[3] Wikipedia contributors. Enumerator polynomial. Wikipedia, The Free Encyclopedia. Dec 18, 2019, 10:45 UTC. Available at: https://en.wikipedia.org/w/index.php?title=Enumerator_polynomial&oldid=931345358. Accessed Jan 27, 2020.
+
