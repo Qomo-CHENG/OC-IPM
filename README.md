@@ -66,11 +66,11 @@ This repository is placed into the public domain. Anyone can redistribute it and
 Copyright (C) 2020, Télécom Paris - All Rights Reserved to Authors.
 
 ## Authors
-- Wei CHENG (mailto:wei.cheng@telecom-paris.fr)
-- Sylvain GUILLEY (mailto:sylvain.guilley@secure-ic.com)
-- Jean-Luc DANGER (mailto:jean-luc.danger@telecom-paris.fr)
-- Claude CARLET (mailto:claude.carlet@gmail.com)
-- Sihem MESNAGER (mailto:smesnager@univ-paris8.fr)
+- Wei CHENG (wei.cheng@telecom-paris.fr)
+- Sylvain GUILLEY (sylvain.guilley@secure-ic.com)
+- Jean-Luc DANGER (jean-luc.danger@telecom-paris.fr)
+- Claude CARLET (claude.carlet@gmail.com)
+- Sihem MESNAGER (smesnager@univ-paris8.fr)
 
 
 ## References
