@@ -26,7 +26,18 @@ Two linear codes are said to be equivalent if one can be obtained from the other
 
 It is interesting to notice that equivalent linear codes have the same weight distribution.
 
-## Inner product masking
+## Optimal codes for IPM
+
+We present hereafter an exhaustive study of the linear codes for IPM, and show the optimal codes that can be a takeaway conclusion.
+
+### IPM with *n*=2 shares and *k*=4 bits
+
+### IPM with *n*=2 shares and *k*=8 bits
+See here: [Optimal codes IPM (*n2_k8*).](https://nbviewer.jupyter.org/github/Qomo-CHENG/OC-IPM/blob/master/ipm_codes_n2k8.ipynb)
+
+
+
+### IPM with *n*=3 shares and *k*=4 bits
 
 ## Copyright and License
 
