@@ -76,7 +76,7 @@ Copyright (C) 2020, Télécom Paris - All Rights Reserved to Authors.
 Consolidating Inner Product Masking. ASIACRYPT (1) 2017: 724-754.
 
 [2] Josep Balasch, Sebastian Faust, Benedikt Gierlichs.
-Inner Product Masking Revisited. EUROCRYPT (1) 2015: 486-510
+Inner Product Masking Revisited. EUROCRYPT (1) 2015: 486-510.
 
 
 [3] Wieb Bosma, John Cannon, and Catherine Playoust, The Magma algebra system. I. The user language, J. Symbolic Comput., 24 (1997), 235–265. Accessed Jan 20, 2019.
