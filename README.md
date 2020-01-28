@@ -75,7 +75,7 @@ Copyright (C) 2020, Télécom Paris - All Rights Reserved to Authors.
 [1] Josep Balasch, Sebastian Faust, Benedikt Gierlichs, Clara Paglialonga, François-Xavier Standaert.
 Consolidating Inner Product Masking. ASIACRYPT (1) 2017: 724-754.
 
-[2] Josep Balasch, Sebastian Faust, Benedikt Gierlichs:
+[2] Josep Balasch, Sebastian Faust, Benedikt Gierlichs.
 Inner Product Masking Revisited. EUROCRYPT (1) 2015: 486-510
 
 
