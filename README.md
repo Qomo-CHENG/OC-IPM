@@ -30,14 +30,22 @@ It is interesting to notice that equivalent linear codes have the same weight di
 
 We present hereafter an exhaustive study of the linear codes for IPM, and show the optimal codes that can be a takeaway conclusion.
 
-### IPM with *n*=2 shares and *k*=4 bits
+### - IPM with *n*=2 shares and *l*=4 bits
 
-### IPM with *n*=2 shares and *k*=8 bits
-See here: [Optimal codes IPM (*n2_k8*).](https://nbviewer.jupyter.org/github/Qomo-CHENG/OC-IPM/blob/master/ipm_codes_n2k8.ipynb)
+See here: [Optimal codes IPM (**n=2 & *l*=4**).](https://nbviewer.jupyter.org/github/Qomo-CHENG/OC-IPM/blob/master/ipm_codes_n2k4.ipynb)
 
+The optimal codes are given in **Tab. II.** in Section 2. We also present one example of *BKLC* code with parameter [8, 4, 4] which is better than all codes used in IPM. This *BKLC* code has been used in **RSM** (Rotating Sbox Masking) scheme during [DPA Contest V4.1&4.2](http://www.dpacontest.org/v4/index.php).
 
+### - IPM with *n*=2 shares and *l*=8 bits
+See here: [Optimal codes IPM (**n=2 & *l*=8**).](https://nbviewer.jupyter.org/github/Qomo-CHENG/OC-IPM/blob/master/ipm_codes_n2k8.ipynb)
 
-### IPM with *n*=3 shares and *k*=4 bits
+The optimal codes are given in **Tab. II.** in Section 2. We also present one example of *BKLC* code with parameter [16, 8, 5] which is better than all codes used in IPM.
+
+### - IPM with *n*=3 shares and *l*=4 bits
+
+See here: [Optimal codes IPM (**n=3 & *l*=4**).](https://nbviewer.jupyter.org/github/Qomo-CHENG/OC-IPM/blob/master/ipm_codes_n2k8.ipynb)
+
+The optimal codes are given in **Tab. II.** in Section 2. We also present one example of *BKLC* code with parameter [16, 8, 5] which is better than all codes used in IPM.
 
 ## Copyright and License
 
