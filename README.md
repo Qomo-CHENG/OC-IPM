@@ -69,8 +69,8 @@ Copyright (C) 2020, Télécom Paris - All Rights Reserved to Authors.
 - Wei CHENG (wei.cheng@telecom-paris.fr)
 - Sylvain GUILLEY (sylvain.guilley@secure-ic.com)
 - Jean-Luc DANGER (jean-luc.danger@telecom-paris.fr)
-- Claude CARLET (claude.carlet@gmail.com)
-- Sihem MESNAGER (smesnager@univ-paris8.fr)
+<!--- - Claude CARLET (claude.carlet@gmail.com) -->
+<!--- - Sihem MESNAGER (smesnager@univ-paris8.fr) -->
 
 
 ## References
