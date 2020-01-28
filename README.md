@@ -5,7 +5,7 @@
 
 We present here the exhaustive study of all linear codes for Inner Product Masking (IPM) and show how to choose optimal linear codes for IPM. 
 
-Particularly, we give the optimal instances with *n*=2, 3 shares and *k*=4, 8 bits. All linear codes presented here are checked formally by Magma Computational Algebra System [<sup>[1]</sup>](http://magma.maths.usyd.edu.au/magma/).
+Particularly, we give the optimal instances with *n*=2, 3 shares and *l*=4, 8 bits. All linear codes presented here are checked formally by Magma Computational Algebra System [<sup>[1]</sup>](http://magma.maths.usyd.edu.au/magma/).
 
 ## Basics
 
@@ -15,7 +15,7 @@ The weight enumerator [<sup>[2]</sup>](https://en.wikipedia.org/wiki/Enumerator_
 
 <img src="http://latex.codecogs.com/gif.latex?W_\mathcal{C}(X, Y) = \sum_{i=0}^n B_iX^{n-i}Y^i" />
 
-It can also be denoted as: $[ (i, B_i), ~s.t. ~B_i\neq 0]$. This form is the one we used in this repository.
+It can also be denoted as: $[ (i, B_i), ~s.t. ~B_i\neq 0]$. We use the one further compact in this repository to save spaces. For instance, the weight enumerator of the code [8, 4, 4] is $[(0, 1), (4, 14), (8, 1)]$, then we write as $[0,1, 4, 14, 8, 1]$.
 
 ### 2. Equivalent codes
 
@@ -43,9 +43,9 @@ The optimal codes are given in **Tab. II.** in Section 2. We also present one ex
 
 - IPM with *n*=3 shares and *l*=4 bits
 
-See here: [Optimal codes IPM (**n=3 & *l*=4**).](https://nbviewer.jupyter.org/github/Qomo-CHENG/OC-IPM/blob/master/ipm_codes_n2k8.ipynb)
+See here: [Optimal codes IPM (**n=3 & *l*=4**).](https://nbviewer.jupyter.org/github/Qomo-CHENG/OC-IPM/blob/master/ipm_codes_n3k4.ipynb)
 
-The optimal codes are given in **Tab. II.** in Section 2. We also present one example of *BKLC* code with parameter [16, 8, 5] which is better than all codes used in IPM.
+The optimal codes are given in **Tab. II.** in Section 2. We also present one example of *BKLC* code with parameter [12, 4, 6], which is equivalent the best codes used in IPM.
 
 ## Copyright and License
 
