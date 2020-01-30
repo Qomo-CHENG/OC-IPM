@@ -50,13 +50,13 @@ The optimal codes are given in **[Tab. II](https://nbviewer.jupyter.org/github/Q
 
 ### 2.4 IPM with *n*=3 shares and *l*=8 bits
 
-We present the weight enumerators of all 255*255=65025 linear codes for IPM. We omit the detaild tables for the sake of brevity.
+See here: [Optimal codes IPM (**n=3 & *l*=8**).](https://nbviewer.jupyter.org/github/Qomo-CHENG/OC-IPM/blob/master/ipm_codes_n3k8.ipynb)
 
-Full logs with different combinations of *$L_2$* and *$L_3$*, and also properties of the generated codes (*code parameters*, *generator matrices*, *weight enumerators*, *weight distributions*) are presented here: [Full logs for IPM with *$n=3$* shares and *$l=8$* bits](https://github.com/Qomo-CHENG/OC-IPM/blob/master/weight_enumerators/weight_code_n3k8_full.log).
+We present the weight enumerators of all 255*255=65025 linear codes for IPM. We omit the detaild tables for the sake of brevity, but only present all codes with maximized dual distance $d_{\mathcal{D}}^\perp$.
 
-The selection of optimal codes for IPM is the same as in the previous cases.
+<!-- Full logs with different combinations of *$L_2$* and *$L_3$*, and also properties of the generated codes (*code parameters*, *generator matrices*, *weight enumerators*, *weight distributions*) are presented here: [Full logs for IPM with *$n=3$* shares and *$l=8$* bits](https://github.com/Qomo-CHENG/OC-IPM/blob/master/weight_enumerators/weight_code_n3k8_full.log). -->
 
-
+The optimal codes are given in **[Tab. II](https://nbviewer.jupyter.org/github/Qomo-CHENG/OC-IPM/blob/master/ipm_codes_n3k8.ipynb)** in Section 2. We also present one example of *BKLC* code with parameter [24, 8, 8], which is not as good as the best codes in IPM.
 
 
 ## Copyright and License
