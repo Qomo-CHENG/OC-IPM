@@ -1,0 +1,214 @@
+Magma V2.23-4     Wed Oct 10 2019 10:30:54 on magma    [Seed = 1778778884]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+
+The irreducible polynomial is: P(alpha) = alpha^4 + alpha + 1
+
+L2 =alpha^i, where i= 0
+[8, 4, 2] Cyclic Linear Code over GF(2)
+Generator matrix:
+[1 0 0 0 1 0 0 0]
+[0 1 0 0 0 1 0 0]
+[0 0 1 0 0 0 1 0]
+[0 0 0 1 0 0 0 1]
+W<X, Y>=
+X^8 + 4*X^6*Y^2 + 6*X^4*Y^4 + 4*X^2*Y^6 + Y^8
+Weight Distribution:
+[ <0, 1>, <2, 4>, <4, 6>, <6, 4>, <8, 1> ]
+
+
+L2 =alpha^i, where i= 1
+[8, 4, 2] Linear Code over GF(2)
+Generator matrix:
+[1 0 0 0 0 1 0 0]
+[0 1 0 0 0 0 1 0]
+[0 0 1 0 0 0 0 1]
+[0 0 0 1 1 1 0 0]
+W<X, Y>=
+X^8 + 3*X^6*Y^2 + 2*X^5*Y^3 + 3*X^4*Y^4 + 4*X^3*Y^5 + X^2*Y^6 + 2*X*Y^7
+Weight Distribution:
+[ <0, 1>, <2, 3>, <3, 2>, <4, 3>, <5, 4>, <6, 1>, <7, 2> ]
+
+
+L2 =alpha^i, where i= 2
+[8, 4, 2] Linear Code over GF(2)
+Generator matrix:
+[1 0 0 0 0 0 1 0]
+[0 1 0 0 0 0 0 1]
+[0 0 1 0 1 1 0 0]
+[0 0 0 1 0 1 1 0]
+W<X, Y>=
+X^8 + 2*X^6*Y^2 + 3*X^5*Y^3 + 3*X^4*Y^4 + 4*X^3*Y^5 + 2*X^2*Y^6 + X*Y^7
+Weight Distribution:
+[ <0, 1>, <2, 2>, <3, 3>, <4, 3>, <5, 4>, <6, 2>, <7, 1> ]
+
+
+L2 =alpha^i, where i= 3
+[8, 4, 2] Linear Code over GF(2)
+Generator matrix:
+[1 0 0 0 0 0 0 1]
+[0 1 0 0 1 1 0 0]
+[0 0 1 0 0 1 1 0]
+[0 0 0 1 0 0 1 1]
+W<X, Y>=
+X^8 + X^6*Y^2 + 4*X^5*Y^3 + 3*X^4*Y^4 + 4*X^3*Y^5 + 3*X^2*Y^6
+Weight Distribution:
+[ <0, 1>, <2, 1>, <3, 4>, <4, 3>, <5, 4>, <6, 3> ]
+
+
+L2 =alpha^i, where i= 4
+[8, 4, 3] Linear Code over GF(2)
+Generator matrix:
+[1 0 0 0 1 1 0 0]
+[0 1 0 0 0 1 1 0]
+[0 0 1 0 0 0 1 1]
+[0 0 0 1 1 1 0 1]
+W<X, Y>=
+X^8 + 4*X^5*Y^3 + 5*X^4*Y^4 + 4*X^3*Y^5 + 2*X^2*Y^6
+Weight Distribution:
+[ <0, 1>, <3, 4>, <4, 5>, <5, 4>, <6, 2> ]
+
+
+L2 =alpha^i, where i= 5
+[8, 4, 3] Linear Code over GF(2)
+Generator matrix:
+[1 0 0 0 0 1 1 0]
+[0 1 0 0 0 0 1 1]
+[0 0 1 0 1 1 0 1]
+[0 0 0 1 1 0 1 0]
+W<X, Y>=
+X^8 + 3*X^5*Y^3 + 7*X^4*Y^4 + 4*X^3*Y^5 + X*Y^7
+Weight Distribution:
+[ <0, 1>, <3, 3>, <4, 7>, <5, 4>, <7, 1> ]
+
+
+L2 =alpha^i, where i= 6
+[8, 4, 3] Linear Code over GF(2)
+Generator matrix:
+[1 0 0 0 0 0 1 1]
+[0 1 0 0 1 1 0 1]
+[0 0 1 0 1 0 1 0]
+[0 0 0 1 0 1 0 1]
+W<X, Y>=
+X^8 + 4*X^5*Y^3 + 5*X^4*Y^4 + 4*X^3*Y^5 + 2*X^2*Y^6
+Weight Distribution:
+[ <0, 1>, <3, 4>, <4, 5>, <5, 4>, <6, 2> ]
+
+
+L2 =alpha^i, where i= 7
+[8, 4, 3] Linear Code over GF(2)
+Generator matrix:
+[1 0 0 0 1 1 0 1]
+[0 1 0 0 1 0 1 0]
+[0 0 1 0 0 1 0 1]
+[0 0 0 1 1 1 1 0]
+W<X, Y>=
+X^8 + 4*X^5*Y^3 + 5*X^4*Y^4 + 4*X^3*Y^5 + 2*X^2*Y^6
+Weight Distribution:
+[ <0, 1>, <3, 4>, <4, 5>, <5, 4>, <6, 2> ]
+
+
+L2 =alpha^i, where i= 8
+[8, 4, 3] Linear Code over GF(2)
+Generator matrix:
+[1 0 0 0 1 0 1 0]
+[0 1 0 0 0 1 0 1]
+[0 0 1 0 1 1 1 0]
+[0 0 0 1 0 1 1 1]
+W<X, Y>=
+X^8 + 4*X^5*Y^3 + 5*X^4*Y^4 + 4*X^3*Y^5 + 2*X^2*Y^6
+Weight Distribution:
+[ <0, 1>, <3, 4>, <4, 5>, <5, 4>, <6, 2> ]
+
+
+L2 =alpha^i, where i= 9
+[8, 4, 3] Linear Code over GF(2)
+Generator matrix:
+[1 0 0 0 0 1 0 1]
+[0 1 0 0 1 1 1 0]
+[0 0 1 0 0 1 1 1]
+[0 0 0 1 1 1 1 1]
+W<X, Y>=
+X^8 + 4*X^5*Y^3 + 5*X^4*Y^4 + 4*X^3*Y^5 + 2*X^2*Y^6
+Weight Distribution:
+[ <0, 1>, <3, 4>, <4, 5>, <5, 4>, <6, 2> ]
+
+
+L2 =alpha^i, where i= 10
+[8, 4, 3] Linear Code over GF(2)
+Generator matrix:
+[1 0 0 0 1 1 1 0]
+[0 1 0 0 0 1 1 1]
+[0 0 1 0 1 1 1 1]
+[0 0 0 1 1 0 1 1]
+W<X, Y>=
+X^8 + 3*X^5*Y^3 + 7*X^4*Y^4 + 4*X^3*Y^5 + X*Y^7
+Weight Distribution:
+[ <0, 1>, <3, 3>, <4, 7>, <5, 4>, <7, 1> ]
+
+
+L2 =alpha^i, where i= 11
+[8, 4, 3] Linear Code over GF(2)
+Generator matrix:
+[1 0 0 0 0 1 1 1]
+[0 1 0 0 1 1 1 1]
+[0 0 1 0 1 0 1 1]
+[0 0 0 1 1 0 0 1]
+W<X, Y>=
+X^8 + 4*X^5*Y^3 + 5*X^4*Y^4 + 4*X^3*Y^5 + 2*X^2*Y^6
+Weight Distribution:
+[ <0, 1>, <3, 4>, <4, 5>, <5, 4>, <6, 2> ]
+
+
+L2 =alpha^i, where i= 12
+[8, 4, 2] Linear Code over GF(2)
+Generator matrix:
+[1 0 0 0 1 1 1 1]
+[0 1 0 0 1 0 1 1]
+[0 0 1 0 1 0 0 1]
+[0 0 0 1 1 0 0 0]
+W<X, Y>=
+X^8 + X^6*Y^2 + 4*X^5*Y^3 + 3*X^4*Y^4 + 4*X^3*Y^5 + 3*X^2*Y^6
+Weight Distribution:
+[ <0, 1>, <2, 1>, <3, 4>, <4, 3>, <5, 4>, <6, 3> ]
+
+
+L2 =alpha^i, where i= 13
+[8, 4, 2] Linear Code over GF(2)
+Generator matrix:
+[1 0 0 0 1 0 1 1]
+[0 1 0 0 1 0 0 1]
+[0 0 1 0 1 0 0 0]
+[0 0 0 1 0 1 0 0]
+W<X, Y>=
+X^8 + 2*X^6*Y^2 + 3*X^5*Y^3 + 3*X^4*Y^4 + 4*X^3*Y^5 + 2*X^2*Y^6 + X*Y^7
+Weight Distribution:
+[ <0, 1>, <2, 2>, <3, 3>, <4, 3>, <5, 4>, <6, 2>, <7, 1> ]
+
+
+L2 =alpha^i, where i= 14
+[8, 4, 2] Linear Code over GF(2)
+Generator matrix:
+[1 0 0 0 1 0 0 1]
+[0 1 0 0 1 0 0 0]
+[0 0 1 0 0 1 0 0]
+[0 0 0 1 0 0 1 0]
+W<X, Y>=
+X^8 + 3*X^6*Y^2 + 2*X^5*Y^3 + 3*X^4*Y^4 + 4*X^3*Y^5 + X^2*Y^6 + 2*X*Y^7
+Weight Distribution:
+[ <0, 1>, <2, 3>, <3, 2>, <4, 3>, <5, 4>, <6, 1>, <7, 2> ]
+
+
+The BKLC code is:  [8, 4, 4] Quasicyclic of degree 2 Linear Code over GF(2)
+Generator matrix:
+[1 0 0 1 0 1 1 0]
+[0 1 0 1 0 1 0 1]
+[0 0 1 1 0 0 1 1]
+[0 0 0 0 1 1 1 1]
+W<X, Y>=
+ X^8 + 14*X^4*Y^4 + Y^8
+Weight Distribution:
+[ <0, 1>, <4, 14>, <8, 1> ]
+
+
+Total time: 0.060 seconds, Total memory usage: 32.09MB
