@@ -59,6 +59,11 @@ We present the weight enumerators of all 255*255=65025 linear codes for IPM. We 
 The optimal codes are given in **[Tab. II](https://nbviewer.jupyter.org/github/Qomo-CHENG/OC-IPM/blob/master/ipm_codes_n3k8.ipynb)** in Section 2. We also present one example of *BKLC* code with parameter [24, 8, 8], which is not as good as the best codes in IPM.
 
 
+## 3 Magma scripts
+
+We share the Magma scripts to easily check the validity of our results. See here: [Magma scripts](https://github.com/Qomo-CHENG/OC-IPM/blob/master/magma_scripts/magma_weight_code_n2k4.m). The corresponding logs are also provided here: [Magma logs](https://github.com/Qomo-CHENG/OC-IPM/blob/master/magma_scripts/magma_weight_code_n2k4.log).
+
+
 ## Copyright and License
 
 This repository is placed into the public domain. Anyone can redistribute it and/or modify it under the terms of the GNU General Public License version 3.0.
