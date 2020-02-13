@@ -34,7 +34,7 @@ We present hereafter an exhaustive study of the linear codes for IPM, and show t
 
 See here: [Optimal codes IPM (**n=2 & *l*=4**).](https://nbviewer.jupyter.org/github/Qomo-CHENG/OC-IPM/blob/master/ipm_codes_n2k4.ipynb)
 
-The optimal codes are given in **[Tab. II](https://nbviewer.jupyter.org/github/Qomo-CHENG/OC-IPM/blob/master/ipm_codes_n2k4.ipynb)** in Section 2. We also present one example of *BKLC* code with parameter [8, 4, 4] which is better than all codes used in IPM. This *BKLC* code has been used in **RSM** (Rotating Sbox Masking) scheme during [DPA Contest V4.1&4.2](http://www.dpacontest.org/v4/index.php).
+The optimal codes are given in **[Tab. II](https://nbviewer.jupyter.org/github/Qomo-CHENG/OC-IPM/blob/master/ipm_codes_n2k4.ipynb)** in Section 2. We also present one example of [*BKLC*](https://magma.maths.usyd.edu.au/magma/handbook/text/1880) code with parameter [8, 4, 4] which is better than all codes used in IPM. This *BKLC* code has been used in **RSM** (Rotating Sbox Masking) scheme during [DPA Contest V4.1&4.2](http://www.dpacontest.org/v4/index.php).
 
 ### 2.2 IPM with *n*=2 shares and *l*=8 bits
 
@@ -86,8 +86,8 @@ Consolidating Inner Product Masking. ASIACRYPT (1) 2017: 724-754.
 [2] Josep Balasch, Sebastian Faust, Benedikt Gierlichs.
 Inner Product Masking Revisited. EUROCRYPT (1) 2015: 486-510.
 
-
 [3] Wieb Bosma, John Cannon, and Catherine Playoust, The Magma algebra system. I. The user language, J. Symbolic Comput., 24 (1997), 235–265. Accessed Jan 20, 2019.
 
 [4] Wikipedia contributors. Enumerator polynomial. Wikipedia, The Free Encyclopedia. Dec 18, 2019, 10:45 UTC. Available at: https://en.wikipedia.org/w/index.php?title=Enumerator_polynomial&oldid=931345358. Accessed Jan 27, 2020.
 
+[5] Wei Cheng, Claude Carlet, Kouassi Goli, Jean-Luc Danger and Sylvain Guilley. Detecting Faults in Inner Product Masking Scheme - IPM-FD: IPM with Fault Detection. PROOFS 2019: 17-32, 2019.
