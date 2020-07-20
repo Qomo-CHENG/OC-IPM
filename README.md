@@ -62,7 +62,7 @@ The optimal codes are given in **[Tab. II](https://nbviewer.jupyter.org/github/Q
 
 With $n$=2 shares and $\ell$=4 bits, all sixes classes of IPM codes and also one *BKLC* code are evaulated by using mutual information shown as follows. 
 <div class="img-wrap" style="text-align:center">
-<img src="figures/tifs_fig5.png" width="400">
+<img src="figures/tifs_fig5.png" width="512">
 </div>
 
 ## 3 Magma scripts
