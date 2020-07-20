@@ -61,8 +61,9 @@ The optimal codes are given in **[Tab. II](https://nbviewer.jupyter.org/github/Q
 ### 2.5 Information-theoretic evaluation<sup>[4]</sup>
 
 With $n$=2 shares and $\ell$=4 bits, all sixes classes of IPM codes and also one *BKLC* code are evaulated by using mutual information shown as follows. 
-
+<div class="img-wrap">
 <img src="figures/tifs_fig5.png" width="">
+</div>
 
 ## 3 Magma scripts
 
@@ -93,6 +94,6 @@ Inner Product Masking Revisited. EUROCRYPT (1) 2015: 486-510.
 
 [3] Wieb Bosma, John Cannon, and Catherine Playoust, The Magma algebra system. I. The user language, J. Symbolic Comput., 24 (1997), 235–265. Accessed Jan 20, 2019.
 
-[4] Wei Cheng, Sylvain Guilley, Claude Carlet, Sihem Mesnager and Jean-Luc Danger, Optimizing Inner Product Masking Scheme by A Coding Theory Approach. The IEEE Transactions on Information Forensics and Security, doi: 10.1109/TIFS.2020.3009609.
+[4] Wei Cheng, Sylvain Guilley, Claude Carlet, Sihem Mesnager and Jean-Luc Danger, Optimizing Inner Product Masking Scheme by A Coding Theory Approach. The IEEE Transactions on Information Forensics and Security, [doi: 10.1109/TIFS.2020.3009609](https://ieeexplore.ieee.org/document/9141357).
 
 [5] Wei Cheng, Claude Carlet, Kouassi Goli, Jean-Luc Danger and Sylvain Guilley. Detecting Faults in Inner Product Masking Scheme - IPM-FD: IPM with Fault Detection. PROOFS 2019: 17-32, 2019.
