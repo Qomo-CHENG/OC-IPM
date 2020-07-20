@@ -58,11 +58,11 @@ We present the weight enumerators of all 255*255=65025 linear codes for IPM. We 
 
 The optimal codes are given in **[Tab. II](https://nbviewer.jupyter.org/github/Qomo-CHENG/OC-IPM/blob/master/optimal_codes/ipm_codes_n3k8.ipynb)** in Section 2. We also present one example of [*BKLC*](http://magma.maths.usyd.edu.au/magma/handbook/text/1881#21217) code with parameter [24, 8, 8], which is not as good as the best codes in IPM.
 
-### 2.5 Information-theoretic evaluation<sup>[4]</sup>
+### 2.5 Information-theoretic evaluation <sup>[[4]]()</sup>
 
 With $n$=2 shares and $\ell$=4 bits, all sixes classes of IPM codes and also one *BKLC* code are evaulated by using mutual information shown as follows. 
 <div class="img-wrap" style="text-align:center">
-<img src="figures/tifs_fig5.png" style="height:85%;width:85%">
+<img src="figures/tifs_fig5.png" width="400">
 </div>
 
 ## 3 Magma scripts
