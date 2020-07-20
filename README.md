@@ -1,17 +1,17 @@
 
 # About
 
-## Optimal Codes for Inner Product Masking<sup>[1,2]</sup>
+## Optimal Codes for Inner Product Masking<sup>[[1,2]](#references)</sup>
 
 We present here the exhaustive study of all linear codes for Inner Product Masking (IPM) and show how to choose optimal linear codes for IPM. 
 
-Particularly, we give the optimal instances with *n*=2, 3 shares and *l*=4, 8 bits. All linear codes presented here are checked formally by Magma Computational Algebra System [<sup>[3]</sup>](http://magma.maths.usyd.edu.au/magma/).
+Particularly, we give the optimal instances with *n*=2, 3 shares and *l*=4, 8 bits. All linear codes presented here are checked formally by Magma Computational Algebra System <sup>[[3]](#references)</sup>.
 
 ## 1 Basics
 
 ### 1.1 Weight enumerator of a linear code
 
-The weight enumerator [<sup>[4]</sup>](https://en.wikipedia.org/wiki/Enumerator_polynomial) specifies the number of codewords of the same Hamming weights in a linear code $\mathcal{C}$. It is defined as:
+The weight enumerator <sup>[[4]](#references)</sup> specifies the number of codewords of the same Hamming weights in a linear code $\mathcal{C}$. It is defined as:
 
 <img src="http://latex.codecogs.com/gif.latex?W_\mathcal{C}(X, Y) = \sum_{i=0}^n B_iX^{n-i}Y^i" />
 
@@ -58,7 +58,7 @@ We present the weight enumerators of all 255*255=65025 linear codes for IPM. We 
 
 The optimal codes are given in **[Tab. II](https://nbviewer.jupyter.org/github/Qomo-CHENG/OC-IPM/blob/master/optimal_codes/ipm_codes_n3k8.ipynb)** in Section 2. We also present one example of [*BKLC*](http://magma.maths.usyd.edu.au/magma/handbook/text/1881#21217) code with parameter [24, 8, 8], which is not as good as the best codes in IPM.
 
-### 2.5 Information-theoretic evaluation <sup>[[4]]()</sup>
+### 2.5 Information-theoretic evaluation <sup>[[4]](#references)</sup>
 
 With $n$=2 shares and $\ell$=4 bits, all sixes classes of IPM codes and also one *BKLC* code are evaulated by using mutual information shown as follows. 
 <div class="img-wrap" style="text-align:center">
@@ -86,14 +86,14 @@ Copyright (C) 2020, Télécom Paris - All Rights Reserved to Authors.
 
 ## References
 
-[1] Josep Balasch, Sebastian Faust, Benedikt Gierlichs, Clara Paglialonga, François-Xavier Standaert.
+[[1]](#references) Josep Balasch, Sebastian Faust, Benedikt Gierlichs, Clara Paglialonga, François-Xavier Standaert.
 Consolidating Inner Product Masking. ASIACRYPT (1) 2017: 724-754.
 
-[2] Josep Balasch, Sebastian Faust, Benedikt Gierlichs.
+[[2]](#references) Josep Balasch, Sebastian Faust, Benedikt Gierlichs.
 Inner Product Masking Revisited. EUROCRYPT (1) 2015: 486-510.
 
-[3] Wieb Bosma, John Cannon, and Catherine Playoust, The Magma algebra system. I. The user language, J. Symbolic Comput., 24 (1997), 235–265. Accessed Jan 20, 2019.
+[[3]](#references) Wieb Bosma, John Cannon, and Catherine Playoust, The Magma algebra system. I. The user language, J. Symbolic Comput., 24 (1997), 235–265. Accessed Jan 20, 2019.
 
-[4] Wei Cheng, Sylvain Guilley, Claude Carlet, Sihem Mesnager and Jean-Luc Danger, Optimizing Inner Product Masking Scheme by A Coding Theory Approach. The IEEE Transactions on Information Forensics and Security, [doi: 10.1109/TIFS.2020.3009609](https://ieeexplore.ieee.org/document/9141357).
+[[4]](#references) Wei Cheng, Sylvain Guilley, Claude Carlet, Sihem Mesnager and Jean-Luc Danger, Optimizing Inner Product Masking Scheme by A Coding Theory Approach. The IEEE Transactions on Information Forensics and Security, [doi: 10.1109/TIFS.2020.3009609](https://ieeexplore.ieee.org/document/9141357).
 
-[5] Wei Cheng, Claude Carlet, Kouassi Goli, Jean-Luc Danger and Sylvain Guilley. Detecting Faults in Inner Product Masking Scheme - IPM-FD: IPM with Fault Detection. PROOFS 2019: 17-32, 2019.
+[[5]](#references) Wei Cheng, Claude Carlet, Kouassi Goli, Jean-Luc Danger and Sylvain Guilley. Detecting Faults in Inner Product Masking Scheme - IPM-FD: IPM with Fault Detection. PROOFS 2019: 17-32, 2019.
