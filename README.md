@@ -30,27 +30,27 @@ It is interesting to notice that equivalent linear codes have the same weight di
 
 We present hereafter an exhaustive study of the linear codes for IPM, and show the optimal codes that can be a takeaway conclusion.
 
-### 2.1 IPM with *n*=2 shares and *l*=4 bits
+### 2.1 IPM with $n$=2 shares and $\ell$=4 bits
 
-See here: [Optimal codes IPM (**n=2 & *l*=4**).](https://nbviewer.jupyter.org/github/Qomo-CHENG/OC-IPM/blob/master/optimal_codes/ipm_codes_n2k4.ipynb)
+See here: [Optimal codes IPM (**n=2 & $\ell$=4**).](https://nbviewer.jupyter.org/github/Qomo-CHENG/OC-IPM/blob/master/optimal_codes/ipm_codes_n2k4.ipynb)
 
 The optimal codes are given in **[Tab. II](https://nbviewer.jupyter.org/github/Qomo-CHENG/OC-IPM/blob/master/optimal_codes/ipm_codes_n2k4.ipynb)** in Section 2. We also present one example of [*BKLC*](http://magma.maths.usyd.edu.au/magma/handbook/text/1881#21217) code with parameter [8, 4, 4] which is better than all codes used in IPM. This *BKLC* code has been used in **RSM** (Rotating Sbox Masking) scheme during [DPA Contest V4.1&4.2](http://www.dpacontest.org/v4/index.php).
 
-### 2.2 IPM with *n*=2 shares and *l*=8 bits
+### 2.2 IPM with $n$=2 shares and $\ell$=8 bits
 
-See here: [Optimal codes IPM (**n=2 & *l*=8**).](https://nbviewer.jupyter.org/github/Qomo-CHENG/OC-IPM/blob/master/optimal_codes/ipm_codes_n2k8.ipynb)
+See here: [Optimal codes IPM (**n=2 & $\ell$=8**).](https://nbviewer.jupyter.org/github/Qomo-CHENG/OC-IPM/blob/master/optimal_codes/ipm_codes_n2k8.ipynb)
 
 The optimal codes are given in **[Tab. II](https://nbviewer.jupyter.org/github/Qomo-CHENG/OC-IPM/blob/master/optimal_codes/ipm_codes_n2k8.ipynb)** in Section 2. We also present one example of [*BKLC*](http://magma.maths.usyd.edu.au/magma/handbook/text/1881#21217) code with parameter [16, 8, 5] which is better than all codes used in IPM.
 
-### 2.3 IPM with *n*=3 shares and *l*=4 bits
+### 2.3 IPM with $n$=3 shares and $\ell$=4 bits
 
-See here: [Optimal codes IPM (**n=3 & *l*=4**).](https://nbviewer.jupyter.org/github/Qomo-CHENG/OC-IPM/blob/master/optimal_codes/ipm_codes_n3k4.ipynb)
+See here: [Optimal codes IPM (**n=3 & $\ell$=4**).](https://nbviewer.jupyter.org/github/Qomo-CHENG/OC-IPM/blob/master/optimal_codes/ipm_codes_n3k4.ipynb)
 
 The optimal codes are given in **[Tab. II](https://nbviewer.jupyter.org/github/Qomo-CHENG/OC-IPM/blob/master/optimal_codes/ipm_codes_n3k4.ipynb)** in Section 2. We also present one example of [*BKLC*](http://magma.maths.usyd.edu.au/magma/handbook/text/1881#21217) code with parameter [12, 4, 6], which is equivalent the best codes used in IPM.
 
-### 2.4 IPM with *n*=3 shares and *l*=8 bits
+### 2.4 IPM with $n$=3 shares and $\ell$=8 bits
 
-See here: [Optimal codes IPM (**n=3 & *l*=8**).](https://nbviewer.jupyter.org/github/Qomo-CHENG/OC-IPM/blob/master/optimal_codes/ipm_codes_n3k8.ipynb)
+See here: [Optimal codes IPM (**n=3 & $\ell$=8**).](https://nbviewer.jupyter.org/github/Qomo-CHENG/OC-IPM/blob/master/optimal_codes/ipm_codes_n3k8.ipynb)
 
 We present the weight enumerators of all 255*255=65025 linear codes for IPM. We omit the detaild tables for the sake of brevity, but only present all codes with maximized dual distance $d_{\mathcal{D}}^\perp$.
 
@@ -58,6 +58,11 @@ We present the weight enumerators of all 255*255=65025 linear codes for IPM. We 
 
 The optimal codes are given in **[Tab. II](https://nbviewer.jupyter.org/github/Qomo-CHENG/OC-IPM/blob/master/optimal_codes/ipm_codes_n3k8.ipynb)** in Section 2. We also present one example of [*BKLC*](http://magma.maths.usyd.edu.au/magma/handbook/text/1881#21217) code with parameter [24, 8, 8], which is not as good as the best codes in IPM.
 
+### 2.5 Information-theoretic evaluation<sup>[4]</sup>
+
+With $n$=2 shares and $\ell$=4 bits, all sixes classes of IPM codes and also one *BKLC* code are evaulated by using mutual information shown as follows. 
+
+<img src="figures/tifs_fig5.png" width="">
 
 ## 3 Magma scripts
 
@@ -88,6 +93,6 @@ Inner Product Masking Revisited. EUROCRYPT (1) 2015: 486-510.
 
 [3] Wieb Bosma, John Cannon, and Catherine Playoust, The Magma algebra system. I. The user language, J. Symbolic Comput., 24 (1997), 235–265. Accessed Jan 20, 2019.
 
-[4] Wikipedia contributors. Enumerator polynomial. Wikipedia, The Free Encyclopedia. Dec 18, 2019, 10:45 UTC. Available at: https://en.wikipedia.org/w/index.php?title=Enumerator_polynomial&oldid=931345358. Accessed Jan 27, 2020.
+[4] Wei Cheng, Sylvain Guilley, Claude Carlet, Sihem Mesnager and Jean-Luc Danger, Optimizing Inner Product Masking Scheme by A Coding Theory Approach. The IEEE Transactions on Information Forensics and Security, doi: 10.1109/TIFS.2020.3009609.
 
 [5] Wei Cheng, Claude Carlet, Kouassi Goli, Jean-Luc Danger and Sylvain Guilley. Detecting Faults in Inner Product Masking Scheme - IPM-FD: IPM with Fault Detection. PROOFS 2019: 17-32, 2019.
