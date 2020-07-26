@@ -60,7 +60,12 @@ The optimal codes are given in **[Tab. II](https://nbviewer.jupyter.org/github/Q
 
 ### 2.5 Information-theoretic evaluation <sup>[[4]](#references)</sup>
 
-With $n$=2 shares and $l$=4 bits, all sixes classes of IPM codes and also one *BKLC* code are evaulated by using mutual information shown as follows. 
+We propose to use two parameters, the dual distance $d_{D}^\perp$ and the coefficient $B_{d_{D}^\perp}$, to characterize the side-channel resistance of IPM. The impact of two parameters on mutual informaiont are depicted as follows <sup>[[4, Fig. 4]](#references)</sup>.
+<div class="img-wrap" style="text-align:center">
+<img src="figures/tifs_fig4.png" width="300">
+</div>
+
+With $n$=2 shares and $l$=4 bits, all sixes classes of IPM codes and also one *BKLC* code are evaulated by using mutual information shown as follows <sup>[[4, Fig. 5]](#references)</sup>. 
 <div class="img-wrap" style="text-align:center">
 <img src="figures/tifs_fig5.png" width="512">
 </div>
