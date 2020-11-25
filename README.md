@@ -7,6 +7,8 @@ We present here the exhaustive study of all linear codes for Inner Product Maski
 
 Particularly, we give the optimal instances with *n*=2, 3 shares and *l*=4, 8 bits. All linear codes presented here are checked formally by Magma Computational Algebra System <sup>[[3]](#references)</sup>.
 
+<br/>
+
 ## 1 Basics
 
 ### 1.1 Weight enumerator of a linear code
@@ -25,6 +27,8 @@ Two linear codes are said to be equivalent if one can be obtained from the other
 2) in any coordinate position, multiplication by any nonzero scalar.
 
 It is interesting to notice that equivalent linear codes have the same weight distribution.
+
+<br/>
 
 ## 2 Optimal codes for IPM
 
@@ -70,16 +74,21 @@ With $n$=2 shares and $l$=4 bits, all sixes classes of IPM codes and also one *B
 <img src="figures/tifs_fig5.png" width="512">
 </div>
 
+<br/>
+
 ## 3 Magma scripts
 
 We share the Magma scripts to easily check the validity of our results. See here: [Magma scripts](https://github.com/Qomo-CHENG/OC-IPM/blob/master/magma_scripts/magma_weight_code_n2k4.m). The corresponding logs are also provided here: [Magma logs](https://github.com/Qomo-CHENG/OC-IPM/blob/master/magma_scripts/magma_weight_code_n2k4.log).
 
+<br/>
 
 ## Copyright and License
 
 This repository is placed into the public domain. Anyone can redistribute it and/or modify it under the terms of the GNU General Public License version 3.0.
 
 Copyright (C) 2020, Télécom Paris - All Rights Reserved to Authors.
+
+<br/>
 
 ## Authors
 - Wei CHENG (wei.cheng AT telecom-paris.fr)
@@ -88,6 +97,7 @@ Copyright (C) 2020, Télécom Paris - All Rights Reserved to Authors.
 - Claude CARLET
 - Sihem MESNAGER
 
+<br/>
 
 ## References
 
