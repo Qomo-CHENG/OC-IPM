@@ -1,11 +1,10 @@
-
-# About
+<h1 align="center">Open-source for Optimizing IPM by A Coding Theory Approach</h1>
 
 ## Optimal Codes for Inner Product Masking<sup>[[1,2]](#references)</sup>
 
 We present here the exhaustive study of all linear codes for Inner Product Masking (IPM) and show how to choose optimal linear codes for IPM. 
 
-Particularly, we give the optimal instances with *n*=2, 3 shares and *l*=4, 8 bits. All linear codes presented here are checked formally by Magma Computational Algebra System <sup>[[3]](#references)</sup>.
+Particularly, we give the optimal instances with *n*=2, 3 shares and *l*=4, 8 bits, respectively. All linear codes presented here are checked formally by Magma Computational Algebra System <sup>[[3]](#references)</sup>.
 
 <br/>
 
@@ -23,8 +22,8 @@ It can also be denoted as: $[ (i, B_i), ~s.t. ~B_i\neq 0]$. We use the one furth
 
 Two linear codes are said to be equivalent if one can be obtained from the other by a series of operations of the following two types:
 
-1) an arbitrary permutation of the coordinate positions, and
-2) in any coordinate position, multiplication by any nonzero scalar.
+ - an arbitrary permutation of the coordinate positions, and
+ - in any coordinate position, multiplication by any nonzero scalar.
 
 It is interesting to notice that equivalent linear codes have the same weight distribution.
 
@@ -84,18 +83,15 @@ We share the Magma scripts to easily check the validity of our results. See here
 
 ## Copyright and License
 
-This repository is placed into the public domain. Anyone can redistribute it and/or modify it under the terms of the GNU General Public License version 3.0.
+This repository is placed into the public domain. Anyone can redistribute it and/or modify it under the [GNU General Public License version 3.0](https://www.gnu.org/licenses/gpl-3.0.html).
 
 Copyright (C) 2020, Télécom Paris - All Rights Reserved to Authors.
 
 <br/>
 
-## Authors
-- Wei CHENG (wei.cheng AT telecom-paris.fr)
-- Sylvain GUILLEY
-- Jean-Luc DANGER
-- Claude CARLET
-- Sihem MESNAGER
+## Contacts
+- Wei Cheng (wei.cheng AT telecom-paris.fr)
+- Sylvain Guilley (sylvain.guilley AT secure-ic.com)
 
 <br/>
 
