@@ -1,10 +1,9 @@
 <h1 align="center">Open-source for Optimizing IPM by A Coding Theory Approach</h1>
 
-## Optimal Codes for Inner Product Masking<sup>[[1,2]](#references)</sup>
+This repo is created for the open-source of the paper `Optimizing Inner Product Masking Scheme by A Coding Theory Approach`, which was published by [*IEEE Transactions on Information Forensics and Security*](https://ches.iacr.org/2021) (T-IFS). All the data and scripts would allow researchers to verify and reproduce our results.
 
-We present here the exhaustive study of all linear codes for Inner Product Masking (IPM) and show how to choose optimal linear codes for IPM. 
-
-Particularly, we give the optimal instances with *n*=2, 3 shares and *l*=4, 8 bits, respectively. All linear codes presented here are checked formally by Magma Computational Algebra System <sup>[[3]](#references)</sup>.
+Basically, we present here the exhaustive study of all linear codes for Inner Product Masking (IPM)<sup>[[1,2]](#references)</sup> and show how to choose optimal linear codes for IPM. 
+In particular, we give the optimal instances with *n*=2, 3 shares and *l*=4, 8 bits, respectively. All linear codes presented here are checked formally by Magma Computational Algebra System <sup>[[3]](#references)</sup>.
 
 <br/>
 
