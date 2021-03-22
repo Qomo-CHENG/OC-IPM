@@ -5,6 +5,8 @@ This repo is created for the open-source of the paper `Optimizing Inner Product 
 Basically, we present here the exhaustive study of all linear codes for Inner Product Masking (IPM)<sup>[[1,2]](#references)</sup> and show how to choose optimal linear codes for IPM. 
 In particular, we give the optimal instances with *n*=2, 3 shares and *l*=4, 8 bits, respectively. All linear codes presented here are checked formally by Magma Computational Algebra System <sup>[[3]](#references)</sup>.
 
+- [x] We recommend the [Mathjax Plugin for Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima) on Chrome to have a better display of mathematical formulas.
+
 <br/>
 
 ## 1 Basics
